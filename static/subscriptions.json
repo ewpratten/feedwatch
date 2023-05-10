@@ -39,5 +39,82 @@
         "tags": [
             "company-blog"
         ]
+    },
+    {
+        "name":"Jeff Geerling",
+        "url": "https://www.jeffgeerling.com/blog.xml",
+        "tags": [
+            "personal-blog"
+        ]
+    },
+    {
+        "name": "Rust Blog",
+        "url": "https://blog.rust-lang.org/feed.xml",
+        "tags":[
+            "rust"
+        ]
+    },
+    {
+        "name": "Inside Rust",
+        "url": "https://blog.rust-lang.org/inside-rust/feed.xml",
+        "tags":[
+            "rust"
+        ]
+    },
+    {
+        "name": "Giles Castel",
+        "url": "https://castel.dev/rss.xml",
+        "tags":[
+            "personal-blog"
+        ]
+    },
+    {
+        "name": "iChun",
+        "url": "https://ichun.me/feed",
+        "tags": [
+            "personal-blog",
+            "minecraft"
+        ]
+    },
+    {
+        "name": "2Blue1Brown",
+        "url": "https://3blue1brown.substack.com/feed",
+        "tags": [
+            "personal-blog",
+            "math"
+        ]
+    },
+    {
+        "name": "Jess Frazelle",
+        "url": "https://blog.jessfraz.com/index.xml",
+        "tags": [
+            "personal-blog",
+            "programming"
+        ]
+    },
+    {
+        "name": "Mara Bos",
+        "url": "https://blog.m-ou.se/index.xml",
+        "tags": [
+            "personal-blog",
+            "programming",
+            "rust"
+        ]
+    },
+    {
+        "name": "APNIC",
+        "url": "https://blog.apnic.net/feed/",
+        "tags": [
+            "company-blog",
+            "networking"
+        ]
+    },
+    {
+        "name": "Modrinth",
+        "url": "https://blog.modrinth.com/rss.xml",
+        "tags": [
+            "company-blog",
+            "minecraft"
+        ]
     }
 ]

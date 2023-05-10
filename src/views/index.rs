@@ -30,15 +30,18 @@ pub async fn render_index_page(
         }
 
         // Try to fetch the channel for the feed
-        if let Ok(channel) = subscription.get_channel().await {
-            for item in channel.items() {
-                feed_items.push(RssFeedItem {
-                    subscription: subscription.clone(),
-                    item: item.clone(),
-                });
+        match subscription.get_channel().await{
+            Ok(channel) => {
+                for item in channel.items() {
+                    feed_items.push(RssFeedItem {
+                        subscription: subscription.clone(),
+                        item: item.clone(),
+                    });
+                }
+            },
+            Err(e) => {
+                console_warn!("Failed to fetch feed: {} ({})", subscription.url, e);
             }
-        } else {
-            console_warn!("Failed to fetch feed: {}", subscription.url);
         }
     }
 
@@ -136,8 +139,9 @@ pub async fn render_index_page(
         headers
             .set("Content-Type", "text/html; charset=utf-8")
             .unwrap();
+        // Tell the browser to cache the page for 10 minutes
         headers
-            .set("Cache-Control", "public, max-age=300, s-maxage=600")
+            .set("Cache-Control", "public, max-age=600")
             .unwrap();
         headers
     }))
