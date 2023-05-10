@@ -1,14 +1,43 @@
 [
     {
         "name": "Evan Pratten",
-        "url": "https://ewpratten.com/rss.xml"
+        "url": "https://ewpratten.com/rss.xml",
+        "tags": [
+            "personal-blog",
+            "programming",
+            "networking"
+        ]
     },
     {
         "name": "Benjojo",
-        "url": "https://blog.benjojo.co.uk/rss.xml"
+        "url": "https://blog.benjojo.co.uk/rss.xml",
+        "tags": [
+            "personal-blog",
+            "programming",
+            "networking"
+        ]
     },
     {
         "name": "Randy",
-        "url": "https://alpinegames.substack.com/feed"
+        "url": "https://alpinegames.substack.com/feed",
+        "tags": [
+            "personal-blog",
+            "game-dev"
+        ]
+    },
+    {
+        "name": "Silas Bartha",
+        "url": "https://exvacuum.dev/feed.xml",
+        "tags": [
+            "personal-blog",
+            "programming"
+        ]
+    },
+    {
+        "name": "Cloudflare (Deep Dives)",
+        "url": "https://blog.cloudflare.com/tag/deep-dive/rss/",
+        "tags": [
+            "company-blog"
+        ]
     }
 ]

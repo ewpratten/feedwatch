@@ -20,6 +20,7 @@ thiserror = "1.0"
 url = "2.3"
 textwrap = "0.16"
 chrono = "0.4"
+itertools = "0.10"
 
 [profile.release]
 lto = true

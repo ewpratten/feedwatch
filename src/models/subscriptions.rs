@@ -15,6 +15,7 @@ pub enum SubscriptionFetchError {
 pub struct Subscription {
     pub name: String,
     pub url: String,
+    pub tags: Vec<String>
 }
 
 impl Subscription {
