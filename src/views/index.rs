@@ -113,7 +113,7 @@ pub async fn render_index_page(
                     r#"
                     <div class="feed-item">
                         <p style="border-left:0.25em solid lightgray;padding-left:0.5em">
-                            <strong><a href="{}">{}</a></strong> - {}<br>
+                            <strong><a href="{}" target="_blank">{}</a></strong> - {}<br>
                             <span style="color:gray">Published: {}</span>
                         </p>
                     </div>
