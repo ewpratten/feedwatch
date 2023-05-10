@@ -1,0 +1,13 @@
+{
+	"name": "feedwatch",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler publish",
+		"dev": "wrangler dev --local",
+        "wrangler": "wrangler"
+	},
+	"devDependencies": {
+		"wrangler": "^2.13.0"
+	}
+}

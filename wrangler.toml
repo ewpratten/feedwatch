@@ -1,0 +1,9 @@
+name = "feedwatch"
+main = "build/worker/shim.mjs"
+compatibility_date = "2023-03-22"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
+
+[vars]
+G_CLIENT_ID="242039204365-9mp4j4a0l7vlmpd618vims25s7gdevvt.apps.googleusercontent.com"
