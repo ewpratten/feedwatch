@@ -116,5 +116,12 @@
             "company-blog",
             "minecraft"
         ]
+    },
+    {
+        "name": "arp242",
+        "url": "https://www.arp242.net/feed.xml",
+        "tags": [
+            "personal-blog"
+        ]
     }
 ]
